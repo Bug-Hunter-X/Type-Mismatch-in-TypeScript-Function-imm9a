@@ -1,0 +1,1 @@
+This repository demonstrates a common type error in TypeScript. The `add` function is defined to accept two numbers and return their sum, but it's called with a string as a second argument. This causes a type error during compilation. The solution demonstrates a simple fix where we explicitly convert the second argument to a number using `Number()` before performing the addition.
